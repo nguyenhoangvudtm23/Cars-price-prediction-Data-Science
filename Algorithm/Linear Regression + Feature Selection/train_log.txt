@@ -1,4 +1,4 @@
-r2_score for best model: 0.8796023776120743
-mse for best model: 79.57808926907546
-drop list for best model: ['curbWeight', 'vEengineDisplacement']
-cutoff for best model: 0.9200000000000004
+r2_score for best model: 0.8748299289000127
+mse for best model: 84.2668514496891
+drop list for best model: ['vEengineDisplacement']
+cutoff for best model: 0.9700000000000004
