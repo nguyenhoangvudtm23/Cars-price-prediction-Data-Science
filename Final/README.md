@@ -46,11 +46,14 @@ __scrapy crawl cars -O cars.csv__ -> This will generate a cars.csv file containi
 2. Data_Cleaning
     * After crawling data, run file __cleaning_data.ipynb__
     * Then run file __covert_number.ipynb__
+    * Run file __fill_missing_value.ipynb__
 3. EDA
     * Run file __EDA_Final.ipynb__ for viewing all image data and some comments about features
     * Run file __EDA_categorical.ipynb__ for shown distribution and image of categorical data
     * Run file __EDA_details_features.ipynb__ for viwing details anlyssing of each features
 4. Algorithms
+    * Run file __DropNa_Regression_Alg.ipynb__ for viewing the result with DropNa method
+    * Run file __KNN_Fill_Regression_Alg.ipynb__ for viewing the result with Filling with KNN method
 
 
 [repos_link]:  https://github.com/nguyenhoangvudtm23/Cars-price-prediction-Data-Science.git
