@@ -25,7 +25,7 @@ In this repository, we will illustrate our process of doing the research, beginn
 1. Crawl: To put our spider to work, go to the crawl directory and run:
 __scrapy crawl cars -O cars.csv__ -> This will generate a cars.csv file containing all scraped items
 
----/
+/
 
     --- crawl/
  
