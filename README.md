@@ -58,7 +58,7 @@ File organization
 4. Algorithms
     * Run file __DropNa_Regression_Alg.ipynb__ for viewing the result with DropNa method
     * Run file __KNN_Fill_Regression_Alg.ipynb__ for viewing the result with Filling with KNN method
-
+    * Run file __KNN_Fill_Regression_Alg_SimilarKFold.ipynb__ for viewing the result with Filling with KNN method by running split train val many time
 
 [repos_link]:  https://github.com/nguyenhoangvudtm23/Cars-price-prediction-Data-Science.git
 
