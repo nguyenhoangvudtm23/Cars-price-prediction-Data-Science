@@ -1,4 +1,0 @@
-r2_score for best model: 0.8748299289000127
-mse for best model: 84.2668514496891
-drop list for best model: ['vEengineDisplacement']
-cutoff for best model: 0.9700000000000004
