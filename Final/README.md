@@ -21,9 +21,9 @@ In this repository, we will illustrate our process of doing the research, beginn
 6. jupyter notebook
 
 # How to run
-* Clone the project with git: _!git clone [repos_link]_**
+* Clone the project with git: _!git clone [repos_link]_
 1. Crawl: To put our spider to work, go to the project’s top level directory and run:
-scrapy crawl cars -O cars.csv -> This will generate a cars.csv file containing all scraped items
+__scrapy crawl cars -O cars.csv__ -> This will generate a cars.csv file containing all scraped items
 
     * scrapy.cfg            # deploy configuration file
     
