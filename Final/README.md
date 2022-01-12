@@ -22,29 +22,27 @@ In this repository, we will illustrate our process of doing the research, beginn
 
 # How to run
 * Clone the project with git: _!git clone [repos_link]_**
-1. Crawl
+1. Crawl: To put our spider to work, go to the project’s top level directory and run:
+scrapy crawl cars -O cars.csv -> This will generate a cars.csv file containing all scraped items
+
     * scrapy.cfg            # deploy configuration file
     
     * car_links.csv         # car link data crawl from web scraper
 
     * tutorial/             # project's Python module, you'll import your code from here
-        __init__.py
+    *    __init__.py
 
-        items.py          # project items definition file
+    *   items.py          # project items definition file
 
-        middlewares.py    # project middlewares file
+    *   middlewares.py    # project middlewares file
 
-        pipelines.py      # project pipelines file
+    *   pipelines.py      # project pipelines file
 
-        settings.py       # project settings file
+    *   settings.py       # project settings file
 
-        spiders/          # a directory where you'll later put your spiders
+    *   spiders/          # a directory where you'll later put your spiders
             __init__.py
-
-To put our spider to work, go to the project’s top level directory and run:
-scrapy crawl cars -O cars.csv
-
--> This will generate a cars.csv file containing all scraped items
+            
 2. Data_Cleaning
     * After crawling data, run file __cleaning_data.ipynb__
     * Then run file __covert_number.ipynb__
