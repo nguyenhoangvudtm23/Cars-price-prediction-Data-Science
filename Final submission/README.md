@@ -25,25 +25,27 @@ In this repository, we will illustrate our process of doing the research, beginn
 1. Crawl: To put our spider to work, go to the crawl directory and run:
 __scrapy crawl cars -O cars.csv__ -> This will generate a cars.csv file containing all scraped items
 
- --- crawl/
+File organization
+
+    --- crawl/
  
-    ---- scrapy.cfg            # deploy configuration file
+       ---- scrapy.cfg            # deploy configuration file
     
-    ---- car_links.csv         # car link data crawl from web scraper
+       ---- car_links.csv         # car link data crawl from web scraper
  
-    ---- tutorial/             # project's Python module, you'll import your code from here
-        ---- __init__.py
+       ---- tutorial/             # project's Python module, you'll import your code from here
+           ---- __init__.py
 
-        ---- items.py          # project items definition file
+           ---- items.py          # project items definition file
 
-        ---- middlewares.py    # project middlewares file
+           ---- middlewares.py    # project middlewares file
 
-        ---- pipelines.py      # project pipelines file
+           ---- pipelines.py      # project pipelines file
 
-        ---- settings.py       # project settings file
+           ---- settings.py       # project settings file
 
-        ---- spiders/          # a directory where you'll later put your spiders
-            ---- __init__.py
+           ---- spiders/          # a directory where you'll later put your spiders
+               ---- __init__.py
             
 2. Data_Cleaning
     * After crawling data, run file __cleaning_data.ipynb__
