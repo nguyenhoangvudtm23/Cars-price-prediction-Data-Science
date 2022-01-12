@@ -26,6 +26,7 @@ In this repository, we will illustrate our process of doing the research, beginn
 __scrapy crawl cars -O cars.csv__ -> This will generate a cars.csv file containing all scraped items
 
  --- crawl/
+ 
     ---- scrapy.cfg            # deploy configuration file
     
     ---- car_links.csv         # car link data crawl from web scraper
