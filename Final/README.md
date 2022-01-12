@@ -53,7 +53,7 @@ scrapy crawl cars -O cars.csv -> This will generate a cars.csv file containing a
 4. Algorithms
 
 
-[repos_link]:  # tu them link git o nhe
+[repos_link]:  https://github.com/nguyenhoangvudtm23/Cars-price-prediction-Data-Science.git
 
 # References
 
