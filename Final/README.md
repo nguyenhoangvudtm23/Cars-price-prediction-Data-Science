@@ -5,9 +5,9 @@ In this repository, we will illustrate our process of doing the research, beginn
 
 # Table Contents:
 1. Algorithms: contains all file related to training and testing result of all algorithms.
-2. Data: contains all data file in form .csv
-3. Crawl: includes code using Web Scraper and Scrapy library for crawling data.
-4. Data_Cleaning: consists of code for cleaning data and convert categorical to numerical data.
+2. Cleaning: consists of code for cleaning data and convert categorical to numerical data.
+3. Crawl: includes code using Web Scraper and Scrapy library for crawling data. 
+4. Data: contains all data file in form .csv 
 5. EDA: contains image file after explore data and code file for coding EDA
 6. Report: consists of all report file and slide in .docx, and .pdf
 
